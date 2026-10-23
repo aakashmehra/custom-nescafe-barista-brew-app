@@ -1,6 +1,8 @@
 # Nescafe Barista Brew App
 
-**A simple, fast Bluetooth app for Nescafé coffee machines.** Unofficial.
+**A simple, fast, custom Bluetooth app for Nescafé coffee machines.** Unofficial.
+
+A custom Nescafé Barista app with custom recipes, custom drinks and favorites. An alternative to the official app.
 
 [日本語はこちら → README.ja.md](README.ja.md)
 
@@ -19,8 +21,8 @@ So I built my own. Nescafe Barista Brew App connects to the machine directly ove
 
 - **One-tap connect.** Finds nearby machines, pairs once, and reconnects automatically after that.
 - **No account, no login.** Everything stays on your phone.
-- **Full drink menu** with strength, water and milk-foam controls.
-- **Favorites.** Save your own drink with your settings and a custom name, then brew it in one tap.
+- **Custom recipes.** Full drink menu with custom strength, water and milk-foam controls.
+- **Custom favorites.** Save your own custom drink with your settings and a custom name, then brew it in one tap.
 - **How-to for every drink**: how much water, milk and which capsule to use.
 - **Machine and cup animations.** Clean black and white UI, Inter font, Liquid Glass on iOS.
 - **12 app icons** to choose from in Settings.
