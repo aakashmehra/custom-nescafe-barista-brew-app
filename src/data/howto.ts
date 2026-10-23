@@ -125,7 +125,7 @@ function wHotWaterHowTo(targetMl: number, cal: HotWaterCalibration | null): Bari
     'Wait until the last pour finishes before taking the cup.',
   ];
   const tips = [
-    'Barista W has no hot-water button, so Brew uses rinse cycles. No coffee is used.',
+    'Barista W has no hot-water button, so the app uses rinse cycles. No coffee is used.',
     cal && cal.stop === 'none'
       ? `Your machine can’t stop a rinse early, so amounts come in ${cal.rinseMl} ml steps.`
       : 'The last pour is stopped early to hit the amount, so it can be off by a few ml.',

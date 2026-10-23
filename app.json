@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Brew",
+    "name": "Barista Brew",
     "slug": "brew-app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -10,7 +10,7 @@
       "supportsTablet": false,
       "bundleIdentifier": "com.aakashmehra.brew",
       "infoPlist": {
-        "NSBluetoothAlwaysUsageDescription": "Brew uses Bluetooth to connect to your coffee machine.",
+        "NSBluetoothAlwaysUsageDescription": "Barista Brew uses Bluetooth to connect to your coffee machine.",
         "ITSAppUsesNonExemptEncryption": false
       },
       "icon": "./assets/icons/classic.png"
@@ -40,7 +40,7 @@
         {
           "isBackgroundEnabled": false,
           "modes": [],
-          "bluetoothAlwaysPermission": "Brew uses Bluetooth to connect to your coffee machine."
+          "bluetoothAlwaysPermission": "Barista Brew uses Bluetooth to connect to your coffee machine."
         }
       ],
       "expo-status-bar",

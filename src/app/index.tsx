@@ -40,7 +40,7 @@ export default function ConnectScreen() {
     <View style={{ flex: 1, backgroundColor: t.bg, paddingTop: insets.top + 12, paddingBottom: insets.bottom + 16 }}>
       <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', paddingHorizontal: 24 }}>
         <Text variant="headline" weight={700}>
-          Brew
+          Nescafe Barista Brew App
         </Text>
         {m.kind === 'demo' && <Pill label="Demo" />}
       </View>

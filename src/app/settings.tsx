@@ -77,7 +77,7 @@ export default function SettingsScreen() {
         )}
         {m.kind === 'demo' && (
           <Text variant="caption" muted style={{ paddingTop: 12 }}>
-            Bluetooth isn't available in this build, so Brew is simulating a machine. Install a development build to
+            Bluetooth isn't available in this build, so the app is simulating a machine. Install a development build to
             control a real one.
           </Text>
         )}
