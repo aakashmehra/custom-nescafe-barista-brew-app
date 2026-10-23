@@ -49,7 +49,7 @@ Most Barista machines can't dispense plain hot water, because every drink progra
 **Coming soon.**
 
 ### Sideload the IPA
-Download `CustomNescafeBaristaMachine.ipa` from [Releases](../../releases) and install it with [AltStore](https://altstore.io) or [Sideloadly](https://sideloadly.io) using your own Apple ID. The IPA is unsigned, so those tools sign it for your device. With a free Apple ID you'll need to refresh it every 7 days.
+Download `CustomNescafeBaristaBrew.ipa` from [Releases](../../releases) and install it with [AltStore](https://altstore.io) or [Sideloadly](https://sideloadly.io) using your own Apple ID. The IPA is unsigned, so those tools sign it for your device. With a free Apple ID you'll need to refresh it every 7 days.
 
 ### Build from source
 Requires a Mac with Xcode and Node.js.

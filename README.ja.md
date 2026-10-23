@@ -49,7 +49,7 @@
 **近日公開予定。**
 
 ### IPA をサイドロードする
-[Releases](../../releases) から `CustomNescafeBaristaMachine.ipa` をダウンロードし、[AltStore](https://altstore.io) または [Sideloadly](https://sideloadly.io) を使ってご自身の Apple ID でインストールしてください。IPA は未署名のため、これらのツールがあなたの端末用に署名します。無料の Apple ID の場合、7日ごとに更新が必要です。
+[Releases](../../releases) から `CustomNescafeBaristaBrew.ipa` をダウンロードし、[AltStore](https://altstore.io) または [Sideloadly](https://sideloadly.io) を使ってご自身の Apple ID でインストールしてください。IPA は未署名のため、これらのツールがあなたの端末用に署名します。無料の Apple ID の場合、7日ごとに更新が必要です。
 
 ### ソースからビルドする
 Xcode と Node.js がインストールされた Mac が必要です。
