@@ -31,7 +31,8 @@ So I built my own. Nescafe Barista Brew App connects to the machine directly ove
 | Machine | Status |
 |---|---|
 | Nescafé Gold Blend **Barista W** | Built and tested with this one |
-| Barista i, Barista 50, Barista Simple, Barista Duo, Barista Slim | Supported, not tested yet |
+| Nescafé Gold Blend **Barista Slim** | Tested, works |
+| Barista i, Barista 50, Barista Simple, Barista Duo | Supported, not tested yet |
 | Dolce Gusto **Esperta**, **Genio S** | Supported, not tested yet |
 
 If you try it with another model, please open an issue and tell me how it went.
