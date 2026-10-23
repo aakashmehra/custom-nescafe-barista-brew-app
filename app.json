@@ -1,0 +1,164 @@
+{
+  "expo": {
+    "name": "Brew",
+    "slug": "brew-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icons/classic.png",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.aakashmehra.brew",
+      "infoPlist": {
+        "NSBluetoothAlwaysUsageDescription": "Brew uses Bluetooth to connect to your coffee machine.",
+        "ITSAppUsesNonExemptEncryption": false
+      },
+      "icon": "./assets/icons/classic.png"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#000000",
+        "foregroundImage": "./assets/icons/android/classic.png",
+        "monochromeImage": "./assets/icons/android/classic.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.aakashmehra.brew",
+      "permissions": [
+        "android.permission.BLUETOOTH",
+        "android.permission.BLUETOOTH_ADMIN",
+        "android.permission.BLUETOOTH_CONNECT"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font",
+      "expo-secure-store",
+      [
+        "react-native-ble-plx",
+        {
+          "isBackgroundEnabled": false,
+          "modes": [],
+          "bluetoothAlwaysPermission": "Brew uses Bluetooth to connect to your coffee machine."
+        }
+      ],
+      "expo-status-bar",
+      "expo-router",
+      [
+        "expo-alternate-app-icons",
+        [
+          {
+            "name": "Inverted",
+            "ios": "./assets/icons/inverted.png",
+            "android": {
+              "foregroundImage": "./assets/icons/android/inverted.png",
+              "backgroundColor": "#FFFFFF"
+            }
+          },
+          {
+            "name": "Espresso",
+            "ios": "./assets/icons/espresso.png",
+            "android": {
+              "foregroundImage": "./assets/icons/android/espresso.png",
+              "backgroundColor": "#3B2318"
+            }
+          },
+          {
+            "name": "Latte",
+            "ios": "./assets/icons/latte.png",
+            "android": {
+              "foregroundImage": "./assets/icons/android/latte.png",
+              "backgroundColor": "#C8895A"
+            }
+          },
+          {
+            "name": "Iced",
+            "ios": "./assets/icons/iced.png",
+            "android": {
+              "foregroundImage": "./assets/icons/android/iced.png",
+              "backgroundColor": "#3C7BC6"
+            }
+          },
+          {
+            "name": "Matcha",
+            "ios": "./assets/icons/matcha.png",
+            "android": {
+              "foregroundImage": "./assets/icons/android/matcha.png",
+              "backgroundColor": "#3F6B3A"
+            }
+          },
+          {
+            "name": "Bean",
+            "ios": "./assets/icons/bean.png",
+            "android": {
+              "foregroundImage": "./assets/icons/android/bean.png",
+              "backgroundColor": "#F1E6D8"
+            }
+          },
+          {
+            "name": "Capsule",
+            "ios": "./assets/icons/capsule.png",
+            "android": {
+              "foregroundImage": "./assets/icons/android/capsule.png",
+              "backgroundColor": "#F2B33D"
+            }
+          },
+          {
+            "name": "Machine",
+            "ios": "./assets/icons/machine.png",
+            "android": {
+              "foregroundImage": "./assets/icons/android/machine.png",
+              "backgroundColor": "#E6E0D6"
+            }
+          },
+          {
+            "name": "Mocha",
+            "ios": "./assets/icons/mocha.png",
+            "android": {
+              "foregroundImage": "./assets/icons/android/mocha.png",
+              "backgroundColor": "#5B2E22"
+            }
+          },
+          {
+            "name": "Night",
+            "ios": "./assets/icons/night.png",
+            "android": {
+              "foregroundImage": "./assets/icons/android/night.png",
+              "backgroundColor": "#0B1631"
+            }
+          },
+          {
+            "name": "PourOver",
+            "ios": "./assets/icons/pourover.png",
+            "android": {
+              "foregroundImage": "./assets/icons/android/pourover.png",
+              "backgroundColor": "#D9573A"
+            }
+          }
+        ]
+      ],
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#FFFFFF",
+          "image": "./assets/icons/android/inverted.png",
+          "imageWidth": 200,
+          "dark": {
+            "backgroundColor": "#000000",
+            "image": "./assets/icons/android/classic.png"
+          }
+        }
+      ]
+    ],
+    "backgroundColor": "#000000",
+    "scheme": "brew",
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "4c4c299f-ac6f-4b00-afa0-31af266c89a8"
+      }
+    },
+    "owner": "aakashmehra"
+  }
+}
